@@ -12,7 +12,6 @@ class Nilai{
         nilaiUas = 100;
         nilaiAkhir = (nilaiAbsen * 0.10) + (nilaiTugas * 0.20) + (nilaiUts * 0.30) + (nilaiUas * 0.40);
     }
-
     void CetakNilai(){
         System.out.println("NIM       : " + nim);
         System.out.println("Nama      : " + nama);
@@ -23,7 +22,6 @@ class Nilai{
         System.out.println("NilaiAkhir: " + nilaiAkhir);
     }
 }
-
 public class Tugas2{
     public static void main(String[] args) {
         Nilai nilai = new Nilai();
